@@ -1,0 +1,41 @@
+form {
+  width: 100%;
+  text-align: center;
+}
+form #header {
+  font-size: 22px;
+}
+form .text-div {
+  padding: 15px;
+}
+form .search-bar {
+  max-width: 750px;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.filler {
+  height: 300px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  background-color: #5070d5;
+}
+header .menu {
+  justify-content: space-around;
+  display: flex;
+  list-style-type: none;
+  width: 60%;
+  max-width: 600px;
+  padding: 11px;
+}
+header .menu a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */

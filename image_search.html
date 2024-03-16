@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <body>
+        <header>
+            <ul class="menu">
+                <a href="./index.html"><li>Normal Search</li></a>
+                <a href="./image_search.html" style="font-weight:700"><li>Image Search</li></a>
+                <a href="./advanced_search.html"><li>Advanced Search</li></a>
+            </ul>
+        </header>
+        <main>
+            <div class="filler"></div>
+            <form action="https://www.google.com/search?">
+                <input type="hidden" name="tbm" value="isch">          
+                <input type="text" name="q" class="search-bar"><br>           
+                <button class="btn btn-primary" type="submit">Image Search</button>
+            </form>
+    </main>
+    </body>
+</html>
